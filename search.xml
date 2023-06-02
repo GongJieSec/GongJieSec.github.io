@@ -4,25 +4,13 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2023/05/24/template/"/>
-      <url>/2023/05/24/template/</url>
+      <title>hellow word</title>
+      <link href="/2023/05/30/hellow%20word/"/>
+      <url>/2023/05/30/hellow%20word/</url>
       
         <content type="html"><![CDATA[<p>摘要<br><span id="more"></span><br>正文</p>]]></content>
       
       
-      <categories>
-          
-          <category> 分类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -30,10 +18,10 @@
     
     <entry>
       <title>个人博客搭建</title>
-      <link href="/2023/05/23/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-      <url>/2023/05/23/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      <link href="/2023/05/24/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2023/05/24/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
       
-        <content type="html"><![CDATA[<p>&emsp;&emsp;hellow， 大家好！我是Gong Jie 这个我的第一篇博文，为什么要搭建这个博客呢？第一嘛是进行知识的整理，第二嘛也是方便自己回顾知识点，当然还有最最重要的一点，那就是交一些志同道合的盆友，本站搭建于2023年5月24日，耗时三天，自己整理了本站的搭建流程及美化过程，<del>欢迎交流学习</del>（欢迎白嫖）</p><span id="more"></span><h2 id="环境准备阶段"><a href="#环境准备阶段" class="headerlink" title="环境准备阶段"></a>环境准备阶段</h2><h3 id="创建相关目录"><a href="#创建相关目录" class="headerlink" title="创建相关目录"></a>创建相关目录</h3><p>打开此电脑——进入D盘根目录——右键——新建文件夹——个人博客<br>进入 <kbd>D:\个人博客</kbd> 目录，新建如下文件夹：  </p><ul><li><b>Git</b> &emsp;&emsp;&emsp;-Git程序</li><li><b>Blog</b> &emsp;&emsp;&nbsp;-博客内容</li><li><b>VScode</b>&emsp;&nbsp;-博客编辑器</li><li><b>Nodejs</b>&emsp;&nbsp;-博客运行环境</li></ul><pre><code class="lang-bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="lang-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="lang-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="lang-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>&emsp;&emsp;hellow， 大家好！我是Gong Jie 这个我的第一篇博文，为什么要搭建这个博客呢？第一嘛是进行知识的整理，第二嘛也是方便自己回顾知识点，当然还有最最重要的一点，那就是交一些志同道合的盆友，本站搭建于2023年5月24日，耗时三天，自己整理了本站的搭建流程及美化过程，<del>欢迎交流学习</del>（欢迎白嫖）</p><span id="more"></span><h2 id="环境准备阶段"><a href="#环境准备阶段" class="headerlink" title="环境准备阶段"></a>环境准备阶段</h2><h3 id="创建相关目录"><a href="#创建相关目录" class="headerlink" title="创建相关目录"></a>创建相关目录</h3><p>打开此电脑—&gt;进入D盘根目录—&gt;右键—&gt;新建文件夹—&gt;个人博客<br>进入 <kbd>D:\个人博客</kbd> 目录，新建如下文件夹：  </p><ul><li><b>Git</b> &emsp;&emsp;&emsp;-Git程序</li><li><b>Blog</b> &emsp;&emsp;&nbsp;-博客内容</li><li><b>VScode</b>&emsp;&nbsp;-博客编辑器</li><li><b>Nodejs</b>&emsp;&nbsp;-博客运行环境</li></ul><h3 id="安装相关环境"><a href="#安装相关环境" class="headerlink" title="安装相关环境"></a>安装相关环境</h3><p>点击<a href="https://link.zhihu.com/?target=https%3A//git-scm.com/downloads">Git</a>进入下载页面<br>选择<code>Download for Winodws</code>下载<code>64-bit Git for Windows Setup</code><br>下载完成后打开<code>Git-2.40.1-64-bit.exe</code>安装程序<br>选择安装目录<kbd>D:\个人博客\Git</kbd><br>Next完成安装</p><p>点击<a href="https://link.zhihu.com/?target=https%3A//nodejs.org/zh-cn">Node.js</a>进入下载页面<br>选择<code>18.16.0长期维护版</code>下载安装程序<br>打开<code>node-v18.16.0-x64.msi</code>安装程序<br>选择安装目录<kbd>D:\个人博客\Nodejs</kbd><br>Next完成安装</p><p>点击<a href="https://code.visualstudio.com/Download">VScode</a>进入下载页面<br>选择User Install <code>x64</code>下载安装程序<br><ins>下载失败的小伙伴可以直接在Windeos Store下载安装</ins><br>打开<code>VSCodeUsersetup-x64-1.78.2.exe</code>安装程序<br>选择安装目录<kbd>D:\个人博客\Vscode</kbd><br>Next完成安装</p><p>安装完成后打开cmd窗口依次输入下面命令，能够回显相关版本号，则安装成功。</p><pre><code class="lang-bash">npm -vnode -vgit --version</code></pre><h3 id="连接Github"><a href="#连接Github" class="headerlink" title="连接Github"></a>连接Github</h3><p>点击<a href="https://github.com/">Github</a>进入Github官网</p><div class="note red icon-padding simple"><i class="note-icon fas fa-fan"></i><p>未完待续……….</p></div>]]></content>
       
       
       <categories>
